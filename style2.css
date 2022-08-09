@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    margin: 16px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 20px 150px 40px;
+}
+
+.main-image {
+    flex: 1 0 50%;
+    max-width: 500px;
+}
+
+.text-container {
+    max-width: 500px;
+}
+
+.text-container > * {
+    margin: 8px;
+}
+
+.information-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 0px 150px;
+}
+
+.information {
+    padding: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.img-group {
+    display: flex;
+}
+
+.img-info {
+    max-width: 200px;
+    margin: 16px;
+}
+
+.img-info .text, .img-info img { 
+    margin: 16px;
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 100px;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 18px;
+}
+
+.sign-banner {
+    display: flex;
+    padding: 25px 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: 100px 200px;
+    border-radius: 15px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.sign-banner .text-container {
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    color: #f9faf8;
+}
+
+/* Color */
+
+.header, .footer, .title-container {
+    background-color: #1F2937;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}   
+
+.subtext, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 12px;
+}
+
+button {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    border-width: 0px;
+}
+
+.sign-banner button {
+    border-width: 2px;
+    border-color: #f9faf8;
+    border-style: solid;
+    flex-shrink: 0;
+}
+
+.sign-banner .bolder {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/* Images */
+
+.img-group img {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+}
